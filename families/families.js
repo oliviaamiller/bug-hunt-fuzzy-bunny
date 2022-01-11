@@ -42,6 +42,7 @@ async function displayFamilies() {
 
                 displayFamilies(updatedFamilies);            
             });
+            bunniesEl.append(bunnyEl);
         }
 
         familyEl.append(nameEl, bunniesEl);
